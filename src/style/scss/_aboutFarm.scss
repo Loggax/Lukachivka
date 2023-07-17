@@ -1,0 +1,133 @@
+.farmText-holder {
+    min-width: 1211px;
+    width: 100%;
+    padding: 50px 87px;
+    border-radius: 28px;
+    background: rgba(169, 149, 128, 0.80);
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    .main-title p{
+        font-size: 65px;
+        font-weight: 700;
+        letter-spacing: 9.75px;
+        text-transform: uppercase;
+        color: #66381C;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .title p{
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: lowercase;
+        color: #66381C;
+        margin-bottom: 47.5px;
+    }
+
+    .farmText p{
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        text-transform: lowercase;
+        color: #66381C;
+        
+    }
+
+    .map-holder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 64px;
+
+        iframe {
+            max-width: 724px;
+            width: 100%;
+            max-height: 396px;
+            border-radius: 14px;
+        }
+    }
+
+    .title-new p{
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        text-transform: lowercase;
+        color: #66381C;
+        margin-bottom: 36.6px;
+    }
+
+    .farmText-new {
+        @extend .farmText;
+        margin-bottom: 36.6px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.mass-media {
+    @extend .farmText-holder;
+    padding: 58px 100px;
+
+    .media-title {
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 9.75px;
+        text-transform: uppercase;
+        color: #66381C;
+        text-align: center;
+        margin-bottom: 47px;
+    }
+
+    .video {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        iframe {
+            max-width: 493.4px;
+            width: 100%;
+            border-radius: 14px;
+        }
+    }
+}
+
+.ourGoal {
+    @extend .mass-media;
+
+    padding: 58px 33px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 158px;
+
+    img {
+        max-width: 517px;
+        width: 100%;
+        border-radius: 14px;
+    }
+
+    .goat-title {
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 9.75px;
+        text-transform: uppercase;
+        color: #66381C;
+        margin-bottom: 28px;
+    }
+
+    .goat-text {
+        @extend .goat-title;
+
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        text-transform: lowercase;
+        line-height: normal;
+    }
+}

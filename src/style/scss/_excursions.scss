@@ -1,0 +1,64 @@
+.excursion-desc {
+    margin-bottom: 157.3px;
+}
+
+.visits {
+    padding: 64px 27px 64px 48px;
+    border-radius: 28px;
+    background: rgba(169, 149, 128, 0.80);
+    margin-bottom: 20px;
+
+    & p:first-child {
+        color: #66381C;
+        font-size: 65px;
+        font-weight: 700;
+        letter-spacing: 9.75px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 38px;
+    }
+
+    & p {
+        color: #66381C;
+        font-size: 30px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+        text-transform: lowercase;
+        margin-bottom: 25.5px;
+    }
+
+    & p:nth-child(5) {
+        margin-bottom: 38px;
+    }
+
+    .order p, a{
+        color: #66381C;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 400;
+        letter-spacing: 1.75px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+}
+
+.excursions-desc {
+    @extend .visits;
+
+    padding: 25px 27px 64px 48px;
+    margin-bottom: 0;
+
+    &:nth-child(3) {
+        margin-bottom: 38px;
+    }
+
+    .excursions-img {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        & img {
+            border-radius: 14px;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+p,
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1375px;
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+}

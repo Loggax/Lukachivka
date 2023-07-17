@@ -1,0 +1,50 @@
+.header {
+    padding-top: 29px;
+    margin-bottom: 90.5px;
+}
+
+.head {
+    max-width: 1271px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo-name {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    a {
+        font-size: 'caviar-dreams', sans-serif;
+        color: #D8C4B9;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        text-transform: uppercase;
+    }
+}
+
+.nav-holder {
+    max-width: 522px;
+    width: 100%;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;
+
+    a {
+        color: #D8C4B9;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

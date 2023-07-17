@@ -1,0 +1,66 @@
+.catalog {
+    margin-bottom: 158px;
+}
+
+.catalog-holder {
+    border-radius: 28px;
+    background: rgba(169, 149, 128, 0.80);
+    padding: 50px 100px;
+
+    .catalog-prod {
+        display: grid;
+        grid-template-columns: repeat(3, 259px);
+        grid-column-gap: 154px;
+        grid-row-gap: 99px;
+    }
+
+    .catalog-title {
+        color: #66381C;
+        text-align: center;
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 65px;
+        letter-spacing: 9.75px;
+        margin-bottom: 68px;
+    }
+
+    .card {
+        max-width: 259px;
+        padding: 30px 10px;
+        border-radius: 14px;
+        background: rgba(102, 56, 28, 0.20);
+        box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25);
+
+        .img-holder {
+            max-width: 203px;
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 28px;
+        }
+
+        .desc {
+            text-align: center;
+            color: #66381C;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 2px;
+            text-transform: capitalize;
+
+            & p {
+                margin-bottom: 28px;
+            }
+
+            & p:last-child {
+                margin-bottom: 0;
+            }
+
+            & p:nth-child(2) {
+                font-size: 15px;
+                line-height: 20px;
+                letter-spacing: 1.5px;
+                text-transform: lowercase;
+            }
+        }
+    }
+}
